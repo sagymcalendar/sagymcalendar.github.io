@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Google Calendars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .calendar-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .calendar {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .calendar-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Google Calendars</h1>
+
+    <div class="calendar-container">
+        <iframe class="calendar" src="<iframe src="https://calendar.google.com/calendar/embed?src=12ea301b25251bf7884a79d8393b364789f63f576438b424b50a79eede965259%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>" frameborder="0" scrolling="no"></iframe>
+        <iframe class="calendar" src="<iframe src="https://calendar.google.com/calendar/embed?src=299cca368d1e90e01d9e9aba1e67425978d00ac340b9572cff96e81c51cb685b%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>" frameborder="0" scrolling="no"></iframe>
+        <iframe class="calendar" src="<iframe src="https://calendar.google.com/calendar/embed?src=0b696295a11f48235b25727d5e88ae05c198f20dfd283072d0af7de332eaa378%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>" frameborder="0" scrolling="no"></iframe>
+        <iframe class="calendar" src="<iframe src="https://calendar.google.com/calendar/embed?src=a90ad4e8f9a3943f376550bc839b4e6c5bebaacb48404e0b381148c82bfa1e48%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+</body>
+</html>
 
